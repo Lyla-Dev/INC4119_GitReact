@@ -40,7 +40,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div className="appp">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main className="main-content">
         {!isLoggedIn ? <LoginPage onLogin={handleLogin} /> : renderPage()}
