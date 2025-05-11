@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, image, link }) => {
       {/* 프로젝트 링크가 있는 경우 버튼 표시 */}
       {link && (
         <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
-          프로젝트 보기
+          깃허브 보기
         </a>
       )}
     </div>

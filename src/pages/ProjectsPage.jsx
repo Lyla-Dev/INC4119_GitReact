@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import sampleImage from "../assets/calcu.png";
+import lego from "../assets/lego.png";
 
 /**
  * 프로젝트 페이지 컴포넌트
@@ -15,12 +16,13 @@ const ProjectsPage = () => {
     },
     {
       title: "나의 프로젝트2",
-      description: "캡스톤 프로젝트에서의 딥러닝 기반 영상 분류 시스템",
+      description: "외국인을 위한 버스 애플리케이션",
+      link: "https://github.com/DeveloperAcademy-POSTECH/2024-MacC-A1-2manythinking",
     },
     {
       title: "나의 프로젝트3",
-      description: "나만의 맛집 저장리스트 ~~",
-      link: "https://map.naver.com/p/entry/place/18697937?c=15.00,0,0,0,dh",
+      description: "레고 수집가를 위한 애플리케이션",
+      image: lego,
     },
   ];
 

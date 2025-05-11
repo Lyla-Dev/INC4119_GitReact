@@ -1,23 +1,28 @@
 import React from "react";
 import FeatureCard from "../components/FeatureCard";
+import catImage from "../assets/cat.png";
 
 const HomePage = () => {
   const features = [
     {
       title: "소개",
-      description: "제 소개입니다.",
+      description: (
+        <div>
+          <img src={catImage} alt="Description" width="200" height="200" />
+        </div>
+      ),
     },
     {
       title: "프로젝트",
-      description: "제가 만든 프로젝트들 입니다.",
+      description: "소프트웨어공학 프로젝트",
     },
     {
       title: "연락처",
-      description: "저에게 연락하는 방법입니다.",
+      description: "minkyeong.choi@outlook.com",
     },
     {
-      title: "여러분이 원하는",
-      description: "항목을 새로 만들어 보세요.",
+      title: "깃허브",
+      description: "https://github.com/Lyla-Dev",
     },
   ];
 
